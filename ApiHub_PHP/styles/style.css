@@ -1,0 +1,45 @@
+@font-face {
+  font-family: rubik;
+  src: url(../fonts/Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: rubik_italic;
+  src: url(../fonts/Rubik/Rubik-Italic-VariableFont_wght.ttf);
+}
+
+* {
+  font-family: rubik;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+#contact-us-img {
+  float: right;
+}
+
+#form-bg {
+  width: 450px !important;
+  height: 400px !important;
+  box-shadow: 0 0 15px rgba(119, 119, 119, 0.577);
+}
+
+#download-btn {
+  width: 200px !important ;
+  background: #8f43ee;
+  color: #ffffff;
+
+  border: none;
+}
+
+#download-btn:hover {
+  width: 200px !important ;
+  background: #ffc60b;
+  color: #ffffff;
+  border: none;
+  transition: 0.3s;
+}

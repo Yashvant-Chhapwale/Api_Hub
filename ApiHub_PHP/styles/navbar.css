@@ -1,0 +1,73 @@
+@font-face {
+  font-family: rubik;
+  src: url(../fonts/Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: rubik_italic;
+  src: url(../fonts/Rubik/Rubik-Italic-VariableFont_wght.ttf);
+}
+
+* {
+  font-family: rubik;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #ffc60b;
+}
+
+.navbar-brand img {
+  filter: drop-shadow(4px 4px 1px #ffffff);
+}
+
+.navbar-nav .nav-link {
+  font-weight: 700;
+  color: #8f43ee;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #602da8;
+  transition-duration: 0.3s;
+}
+
+.active {
+  color: #602da8 !important;
+}
+
+#dropdownId:focus {
+  color: #602da8;
+  transition-duration: 0.3s;
+}
+
+.dropdown-menu .dropdown-item {
+  padding-inline: 30px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: #8f43ee;
+  transition-duration: 0.5s;
+}
+
+.search-input {
+  width: 180px !important;
+  height: 30px !important;
+}
+
+.search-input:focus {
+  box-shadow: none !important;
+  border: none !important;
+  box-shadow: 0px 0px 15px #ffffff !important;
+  border-width: 1px;
+  transition: 0.3s;
+}
+
+.search-btn {
+  height: 30px !important;
+}
+
+#search-input::placeholder {
+  font-weight: 400;
+  color: #d5a402 !important;
+}

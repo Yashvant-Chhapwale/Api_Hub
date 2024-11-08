@@ -1,0 +1,5 @@
+yellow:#FFC60B
+white:#F3F8FF
+violet:#8F43EE
+dark yellow:#FF8B00
+gray:#444444
